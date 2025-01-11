@@ -1,0 +1,40 @@
+[
+  {
+    "titulo": "Formal",
+    "contenido": [
+      "../assets/estilos/formal1.jpeg",
+      "../assets/estilos/formal2.jpeg",
+      "../assets/estilos/formal2.jpeg",
+      "../assets/estilos/formal2.jpeg",
+      "../assets/estilos/formal3.jpeg",
+      "../assets/estilos/formal3.jpeg",
+      "../assets/estilos/formal3.jpeg",
+      "../assets/estilos/formal3.jpeg"
+    ]
+  },
+  {
+    "titulo": "Deportivo",
+    "contenido": [
+      "../assets/estilos/formal1.jpeg",
+      "../assets/estilos/formal2.jpeg",
+      "../assets/estilos/formal3.jpeg"
+    ]
+  },
+  {
+    "titulo": "Casual",
+    "contenido": [
+      "../assets/estilos/formal1.jpeg",
+      "../assets/estilos/formal2.jpeg",
+      "../assets/estilos/formal3.jpeg"
+    ]
+  },
+  {
+    "titulo": "Vintage",
+    "contenido": [
+      "../assets/estilos/formal1.jpeg",
+      "../assets/estilos/formal2.jpeg",
+      "../assets/estilos/formal3.jpeg"
+    ]
+  }
+
+]

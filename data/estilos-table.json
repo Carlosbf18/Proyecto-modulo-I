@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "temporada": "Verano",
+    "estilo": "Casual",
+    "superior": "Camiseta de algodón",
+    "inferior": "Shorts de mezclilla",
+    "zapatos": "Sandalias"
+  },
+  {
+    "id": 2,
+    "temporada": "Invierno",
+    "estilo": "Formal",
+    "superior": "Camisa de manga larga",
+    "inferior": "Pantalón de lana",
+    "zapatos": "Zapatos de cuero"
+  },
+  {
+    "id": 3,
+    "temporada": "Primavera",
+    "estilo": "Deportivo",
+    "superior": "Sudadera ligera",
+    "inferior": "Leggings",
+    "zapatos": "Zapatillas deportivas"
+  },
+  {
+    "id": 4,
+    "temporada": "Otoño",
+    "estilo": "Bohemio",
+    "superior": "Blusa estampada",
+    "inferior": "Falda larga",
+    "zapatos": "Botines"
+  },
+  {
+    "id": 5,
+    "temporada": "Verano",
+    "estilo": "Playero",
+    "superior": "Tank superior",
+    "inferior": "Bermudas",
+    "zapatos": "Chanclas"
+  },
+  {
+    "id": 6,
+    "temporada": "Invierno",
+    "estilo": "Casual",
+    "superior": "Suéter de lana",
+    "inferior": "Jeans",
+    "zapatos": "Botas térmicas"
+  },
+  {
+    "id": 7,
+    "temporada": "Primavera",
+    "estilo": "Elegante",
+    "superior": "Blazer ligero",
+    "inferior": "Pantalón de lino",
+    "zapatos": "Mocasines"
+  },
+  {
+    "id": 8,
+    "temporada": "Otoño",
+    "estilo": "Urbano",
+    "superior": "Chaqueta de cuero",
+    "inferior": "Pantalones cargo",
+    "zapatos": "Zapatillas casuales"
+  },
+  {
+    "id": 9,
+    "temporada": "Verano",
+    "estilo": "Deportivo",
+    "superior": "Camiseta sin mangas",
+    "inferior": "Shorts deportivos",
+    "zapatos": "Tenis para correr"
+  },
+  {
+    "id": 10,
+    "temporada": "Invierno",
+    "estilo": "Elegante",
+    "superior": "Abrigo largo",
+    "inferior": "Pantalón de vestir",
+    "zapatos": "Botas de cuero"
+  },
+  {
+    "id": 11,
+    "temporada": "Primavera",
+    "estilo": "Casual",
+    "superior": "Camiseta estampada",
+    "inferior": "Pantalones cortos",
+    "zapatos": "Zapatillas deportivas"
+  },
+  {
+    "id": 12,
+    "temporada": "Otoño",
+    "estilo": "Formal",
+    "superior": "Camisa de botones",
+    "inferior": "Chinos",
+    "zapatos": "Zapatos Oxford"
+  },
+  {
+    "id": 13,
+    "temporada": "Verano",
+    "estilo": "Bohemio",
+    "superior": "Blusa suelta",
+    "inferior": "Falda midi",
+    "zapatos": "Sandalias planas"
+  },
+  {
+    "id": 14,
+    "temporada": "Invierno",
+    "estilo": "Deportivo",
+    "superior": "Chaqueta acolchada",
+    "inferior": "Pantalones térmicos",
+    "zapatos": "Botas de nieve"
+  },
+  {
+    "id": 15,
+    "temporada": "Primavera",
+    "estilo": "Playero",
+    "superior": "Camisa hawaiana",
+    "inferior": "Shorts estampados",
+    "zapatos": "Chanclas"
+  },
+  {
+    "id": 16,
+    "temporada": "Otoño",
+    "estilo": "Casual",
+    "superior": "Jersey de cuello alto",
+    "inferior": "Pantalones vaqueros",
+    "zapatos": "Botines"
+  },
+  {
+    "id": 17,
+    "temporada": "Verano",
+    "estilo": "Elegante",
+    "superior": "Blusa de seda",
+    "inferior": "Pantalón palazzo",
+    "zapatos": "Sandalias con tacón"
+  },
+  {
+    "id": 18,
+    "temporada": "Invierno",
+    "estilo": "Casual",
+    "superior": "Camiseta térmica",
+    "inferior": "Pantalones de mezclilla",
+    "zapatos": "Botas impermeables"
+  },
+  {
+    "id": 19,
+    "temporada": "Primavera",
+    "estilo": "Bohemio",
+    "superior": "superior de encaje",
+    "inferior": "Falda maxi",
+    "zapatos": "Sandalias gladiador"
+  },
+  {
+    "id": 20,
+    "temporada": "Otoño",
+    "estilo": "Urbano",
+    "superior": "Camiseta básica",
+    "inferior": "Joggers",
+    "zapatos": "Zapatillas deportivas"
+  }
+]
+

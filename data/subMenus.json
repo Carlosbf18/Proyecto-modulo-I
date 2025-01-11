@@ -168,7 +168,15 @@
         "en": "Social networks",
         "qu": "Redes sociales"
       },
-      "link": "/redes-sociales"
+      "link": "/cotactos.html#contactos"
+    },
+    {
+      "texto" : {
+        "es": "Nuestros Contactos",
+        "en": "Our Contacts",
+        "qu": "Nuestros Contactos"
+      },
+      "link": "/cotactos.html#contactos"
     },
     {
       "texto" : {

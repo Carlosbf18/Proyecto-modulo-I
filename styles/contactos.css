@@ -1,0 +1,20 @@
+.contact-icon{
+  font-size: 80px;
+  color: var(--bs-secondary-color);
+}
+
+.contact-icon:hover{
+  font-size: 90px;
+  color: #000;
+}
+
+
+.contact-icon-card{
+  font-size: 40px;
+}
+
+.contactos {
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}

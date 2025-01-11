@@ -70,7 +70,7 @@ function generarMenu(lang) {
     if (tipo === 'option') {
       menu.innerHTML += `
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown" data-bs-toggle="dropdown" aria-expanded="false" href="${link}">${nameTranslation}</a>
+        <a class="nav-link dropdown" aria-expanded="false" href="${link}">${nameTranslation}</a>
         ${subMenuHtml}
       </li>`;
     }

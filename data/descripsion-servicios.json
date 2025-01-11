@@ -2,11 +2,24 @@
   {
     "titulo": {
       "es": "Crear Combinación",
+      "en": "Create Conbination",
+      "qu": "Crear Combinación nisqa"
+    },
+    "contenido": {
+      "es": "",
+      "en": "",
+      "qu": ""
+    },
+    "imagen": ""
+  },
+  {
+    "titulo": {
+      "es": "Estilos",
       "en": "",
       "qu": ""
     },
     "contenido": {
-      "es": "Estilos",
+      "es": "",
       "en": "",
       "qu": ""
     },
@@ -19,28 +32,15 @@
       "qu": ""
     },
     "contenido": {
+      "es": "",
+      "en": "",
+      "qu": ""
+    },
+    "imagen": ""
+  },
+  {
+    "titulo": {
       "es": "Tendencias",
-      "en": "",
-      "qu": ""
-    },
-    "imagen": ""
-  },
-  {
-    "titulo": {
-      "es": "",
-      "en": "",
-      "qu": ""
-    },
-    "contenido": {
-      "es": "",
-      "en": "",
-      "qu": ""
-    },
-    "imagen": ""
-  },
-  {
-    "titulo": {
-      "es": "",
       "en": "",
       "qu": ""
     },
