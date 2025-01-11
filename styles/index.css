@@ -1,0 +1,43 @@
+*, header {
+ padding: 0;
+ margin: 0;
+}
+
+.navbar-css {
+  padding: 0;
+  margin: 0;
+}
+
+.carrusel {
+  width: relative;
+  height: 350px;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  width: 1040;
+  margin-top: 6px;
+}
+
+.img-services {
+  width: 350px;
+}
+
+
+
+
+
+.footer {
+  height: 100px;
+}
+
+.footer div {
+  margin-top: 5px;
+}
+
+
+.footer div p {
+  padding: 0px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}

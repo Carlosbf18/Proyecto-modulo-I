@@ -1,0 +1,182 @@
+{
+  "combinación": [
+    {
+      "texto" : {
+        "es": "Seleccionar prendas",
+        "en": "Select clothes",
+        "qu": "P’achakunata akllay"
+      },
+      "link": "/seleccionar-prendas"
+    },
+    {
+      "texto" : {
+        "es": "Colores preferidos",
+        "en": "Favorite colors",
+        "qu": "Munasqa llimp’ikuna"
+      },
+      "link": "/colores-preferidos"
+    },
+    {
+      "texto" : {
+        "es": "Estilos sugeridos",
+        "en": "Suggested styles",
+        "qu": "Yuyaychasqa estilokuna"
+      },
+      "link": "/estilos-sugeridos"
+    }
+  ],
+  "estilos": [
+    {
+      "texto" : {
+        "es": "Formal",
+        "en": "Formal",
+        "qu": "Formal"
+      },
+      "link": ""
+    },
+    {
+      "texto" : {
+        "es": "Casual",
+        "en": "Casual",
+        "qu": "Informal"
+      },
+      "link": "/casual"
+    },
+    {
+      "texto" : {
+        "es": "Deportivo",
+        "en": "Sporty",
+        "qu": "Deportivo llaqtamanta"
+      },
+      "link": "/deportivo"
+    },
+    {
+      "texto" : {
+        "es": "Vintage",
+        "en": "Vintage",
+        "qu": "Vintage"
+      },
+      "link": "/vintage"
+    }
+  ],
+  "galeria": [
+    {
+      "texto" : {
+        "es": "Looks destacados",
+        "en": "Looks outstanding",
+        "qu": "Destacados nisqaman rikchakun"
+      },
+      "link": "/looks-destacados"
+    },
+    {
+      "texto" : {
+        "es": "Combinaciones guardadas",
+        "en": "Saved combinations",
+        "qu": "Combinaciones guardadas nisqa"
+      },
+      "link": "/combinaciones-guardadas"
+    },
+    {
+      "texto" : {
+        "es": "Ideas para eventos",
+        "en": "Ideas for events",
+        "qu": "Ideas para eventos"
+      },
+      "link": "/ideas-para-eventos"
+    },
+    {
+      "texto" : {
+        "es": "Inspiración de famosos",
+        "en": "Celebrity inspiration",
+        "qu": "Inspiración de famosos nisqa"
+      },
+      "link": ""
+    }
+  ],
+  "consejos": [
+    {
+      "texto" : {
+        "es": "Uso de colores",
+        "en": "Use of colors",
+        "qu": "Uso de colores"
+      },
+      "link": ""
+    },
+    {
+      "texto" : {
+        "es": "Estilo por temporada",
+        "en": "Styling by season",
+        "qu": "Estilo por temporada"
+      },
+      "link": "/estilo-por-temporada"
+    },
+    {
+      "texto" : {
+        "es": "Accesorios ideales",
+        "en": "Ideal accessories",
+        "qu": "Accesorios ideales nisqakuna"
+      },
+      "link": "/accesorios-ideales"
+    },
+    {
+      "texto" : {
+        "es": "Errores comunes",
+        "en": "Common mistakes",
+        "qu": "Pantasqakuna comunes"
+      },
+      "link": "/errores-comunes"
+    }
+  ],
+  "tendencias": [
+    {
+      "texto" : {
+        "es": "Moda actual",
+        "en": "Current fashion",
+        "qu": "Moda chiqap"
+      },
+      "link": "/moda-actual"
+    },
+    {
+      "texto" : {
+        "es": "Colores del año",
+        "en": "Colors of the year",
+        "qu": "Colores del año"
+      },
+      "link": "/colores-del-año"
+    },
+    {
+      "texto" : {
+        "es": "Materiales innovadores",
+        "en": "Materiales innovadores nisqakuna",
+        "qu": "Innovative materials"
+      },
+      "link": "materiales-innovadores"
+    },
+    {
+      "texto" : {
+        "es": "Marcas destacadas",
+        "en": "Outstanding brands",
+        "qu": "Marcas destacadas nisqa"
+      },
+      "link": "/marcas-destacadas"
+    }
+  ],
+  "contacto": [
+    {
+      "texto" : {
+        "es": "Redes sociales",
+        "en": "Social networks",
+        "qu": "Redes sociales"
+      },
+      "link": "/redes-sociales"
+    },
+    {
+      "texto" : {
+        "es": "Soporte técnico",
+        "en": "Technical support",
+        "qu": "Soporte técnico"
+      },
+      "link": "/soporte-técnico"
+    }
+  ]
+}

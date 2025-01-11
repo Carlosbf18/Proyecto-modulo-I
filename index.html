@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Page Title</title>
+  <link rel="stylesheet" href="./styles/index.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!-- header nav -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.svg" alt="Logo" width="40" height="36" class="d-inline-block align-text-top">
+          Generador Convinaciones de Ropa
+        </a>
+      </div>
+      <div class="input-group mb-2 px-3" style="width: 120px;">
+        <select class="form-select"  id="idioma">
+          <option value="es" selected>ES</option>
+          <option value="en">EN</option>
+          <option value="qu">QU</option>
+        </select>
+      </div>
+    </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 " data-bs-theme="dark">
+      <div class="container-fluid d-flex justify-content-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="main-menu">
+            <!--Menu Principal Dinamico-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <script src="./scripts/menu.js" ></script>
+  <!-- Carrusel -->
+  <section id= "carrusel" class="carrusel">
+    <div id="carouselAutoplaying" class="carousel slide carrusel" data-bs-ride="carousel">
+      <!--botones indicadores-->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <!--Contenido carrusel-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#introduccion">
+            <img src="./assets/carrusel/carrusel1.jpg" class="d-block w-100" style="height: 350px;" alt="image" href="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Herramienta para Generar Convinaciones de Ropa</h5>
+              <p>De acuerdo a tu estilo y tus gustos.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="#servicios">
+            <img src="./assets/carrusel/carrusel2.jpg" class="d-block w-100" style="height: 350px;" alt="image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Herramienta para Generar Convinaciones de Ropa</h5>
+              <p>De acuerdo a tu estilo y tus gustos.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="#ventajas">
+            <img src="./assets/carrusel/carrusel2.jpg" class="d-block w-100" style="height: 350px;" alt="image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Herramienta para Generar Convinaciones de Ropa</h5>
+              <p>De acuerdo a tu estilo y tus gustos.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="#opiniones">
+            <img src="./assets/carrusel/carrusel1.jpg" class="d-block w-100" style="height: 350px;" alt="image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Herramienta para Generar Convinaciones de Ropa</h5>
+              <p>De acuerdo a tu estilo y tus gustos.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!--Botones direccion-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  </section>
+  <!--Contenido-->
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <!-- Introducción al generador -->
+    <div class="container text-center mtb-5" id="introduccion">
+      <h4 id="" class="fw-semibold">Introducción al generador</h4>
+      <div class="row">
+        <div class="col-md-5 col-sm-10">
+          <img src="./assets/introduccion.jpg" class="object-fit-xxl-contain border rounded img-services" alt="Logo">
+        </div>
+        <div class="col-md-7 col-sm-10 text-center text-end align-middle">
+          <p class="mr-3 text-end">La aplicación web "Generador de Ropa" es una herramienta interactiva diseñada para revolucionar la forma en que los usuarios diseñan, personalizan y visualizan prendas de vestir.</p>
+          <p class="mr-3 text-end">
+            Pensada tanto para profesionales de la moda como para entusiastas del diseño, o personas comunes que quieren experimentar con sus propios estilos, esta plataforma combina creatividad, tecnología y accesibilidad en un entorno fácil de usar.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Servicios -->
+    <div class="container mtb-5" id="servicios">
+      <h4 id="" class="text-center">Nuestros Servicios</h4>
+      <div class="row">
+        <div class="col-md-7 col-sm-8">
+          <h5>Interfaz de Diseño Personalizable</h5>
+          <p> Los usuarios pueden crear prendas únicas seleccionando entre una amplia gama de opciones, como estilos de ropa (camisas, pantalones, vestidos, etc.), tipos de tejidos, colores, estampados y detalles específicos (botones, cierres, bolsillos, etc.). La interfaz es intuitiva, permitiendo ajustes en tiempo real.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-10">
+          <img src="./assets\servicios\convinacion.jpg" alt="Logo" class="object-fit-xxl-contain border rounded img-services">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-sm-10">
+          <img src="./assets/introduccion.jpg" alt="Logo" width="auto" class="object-fit-xxl-contain border rounded">
+        </div>
+        <div class="col-md-7 align-middle col-sm-8 text-end">
+          <h5>Estilos</h5>
+          <p > La aplicación incluye un modelo 3D personalizable donde los usuarios pueden previsualizar sus diseños en un entorno realista. También se integra con pruebas virtuales para ver cómo luciría la prenda en diferentes tipos de cuerpo.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7 col-sm-8">
+          <h5>Generación Automática de Diseños</h5>
+          <p> Basándose en preferencias y tendencias, el sistema puede generar automáticamente propuestas de diseño. Los usuarios simplemente eligen entre las opciones sugeridas o ajustan los detalles según sus gustos.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-10">
+          <img src="./assets/introduccion.jpg" alt="Logo" width="auto" class="object-fit-xxl-contain border rounded">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-10">
+          <img src="./assets/introduccion.jpg" alt="Logo" width="auto" class="object-fit-xxl-contain border rounded">
+        </div>
+        <div class="col-md-8 col-sm-8">
+          <h5>Personalización por IA</h5>
+          <p> Una inteligencia artificial integrada sugiere modificaciones basadas en las últimas tendencias de la moda o los datos de usuario, mejorando el diseño y optimizando el proceso creativo.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <hr/>
+    <!-- Ventajas -->
+    <div class="container" id="ventajas">
+      <h4 id="">Ventajas de usarlo</h4>
+      <div class="container" id="">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                1. Creatividad sin Límites
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                La app permite a los usuarios experimentar con diseños únicos, mezclando colores, estilos y patrones sin necesidad de conocimientos avanzados en moda o diseño. Es ideal para liberar la imaginación y crear prendas personalizadas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                2. Ahorro de Tiempo y Recursos
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Con herramientas como generación automática de diseños y previsualización en 3D, los usuarios pueden iterar rápidamente sin gastar dinero en prototipos físicos innecesarios.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                3. Accesibilidad y Facilidad de Uso
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Diseñadores profesionales, estudiantes de moda o usuarios sin experiencia pueden utilizar la app gracias a su interfaz intuitiva y compatible con múltiples dispositivos (móvil, tablet, PC).
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Opiniones de usuarios -->
+    <div class="container" id="opiniones">
+    <h3>Opiniones de usuarios</h3>
+
+    <div class="row">
+    <div class="card m-3 " style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="image" class="img-fluid rounded-start" alt="image">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Lucía R. (Diseñadora Freelance):</h5>
+            <p class="card-text">"Me encanta esta aplicación. Me ha ahorrado muchísimo tiempo en la creación de prototipos para mis clientes. La vista en 3D es súper realista, y las herramientas de personalización son muy completas. Además, el marketplace me ha permitido ganar ingresos extra vendiendo algunos de mis diseños."</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card m-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="image" class="img-fluid rounded-start" alt="image">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Carlos M. (Estudiante de Moda):</h5>
+            <p class="card-text">"Como estudiante, esta app ha sido una gran ayuda para mis proyectos. Me permite experimentar con diseños sin gastar en materiales. También me gusta la función de colaboración porque puedo compartir ideas con mis compañeros en tiempo real."</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card m-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="image" class="img-fluid rounded-start" alt="image">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">María J. (Entusiasta de la Moda):</h5>
+            <p class="card-text">"No soy diseñadora profesional, pero siempre quise personalizar mi ropa. La app hace que sea muy fácil crear prendas que realmente reflejan mi estilo. ¡Incluso encargué un vestido único que diseñé yo misma!"</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+  <!-- Pie de Pagina -->
+  <div class="footer container-fluid bg-black text-light text-center" id="footer">
+    <div class="container">
+      <p>© 2025 UATF - Diplomado Desarrollo de Software.</p>
+      <p>Diplomante: Carlos Antonio Barrientos Farfan.</p>
+      <p>All rights reserved.</p>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

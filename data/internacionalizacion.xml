@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+  <menu>
+    <item id="home">
+      <es>Generador Combinaciones de Ropa</es>
+      <en>Clothing Combinations Generator</en>
+      <qu>Generador Combinaciones de Ropa</qu>
+    </item>
+    <item id="combinación">
+      <es>Crear Combinación</es>
+      <en>Create Conbination</en>
+      <qu>Crear Combinación nisqa</qu>
+    </item>
+    <item id="estilos">
+      <es>Estilos</es>
+      <en>Styles</en>
+      <qu>Estilos sutiyuq runa</qu>
+      </item>
+    <item id="galería">
+      <es>Galería de Ideas</es>
+      <en>Gallery of Ideas</en>
+      <qu>Galería de Ideas nisqa</qu>
+    </item>
+    <item id="consejos">
+      <es>Consejos de Moda</es>
+      <en>Fashion Tips</en>
+      <qu>Modamanta Consejos</qu>
+    </item>
+    <item id="tendencias">
+      <es>Tendencias</es>
+      <en>Tendencies</en>
+      <qu>Tendencias nisqakuna</qu>
+    </item>
+    <item id="contacto">
+      <es>Contacto</es>
+      <en>Contact</en>
+      <qu>Tupaqmasi</qu>
+    </item>
+  </menu>
+
+</translations>

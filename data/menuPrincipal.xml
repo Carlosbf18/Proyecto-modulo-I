@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <item type="nav-text">
+    <id>home</id>
+    <link>#</link>
+  </item>
+  <item type="option">
+    <id>combinación</id>
+    <link>#</link>
+  </item>
+  <item type="option">
+    <id>estilos</id>
+    <link>moda.html</link>
+  </item>
+  <item type="option">
+    <id>galería</id>
+    <link>belleza.html</link>
+  </item>
+  <item type="option">
+    <id>consejos</id>
+    <link>temporadas.html</link>
+  </item>
+  <item type="option">
+    <id>tendencias</id>
+    <link>temporadas.html</link>
+  </item>
+  <item type="option">
+    <id>contacto</id>
+    <link>temporadas.html</link>
+  </item>
+</menu>
